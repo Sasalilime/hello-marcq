@@ -1,23 +1,13 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+@extends('base')
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+@section('title', ' About | ' . env('APP_NAME'))
 
-    <title>A propos | Hello City</title>
+@section('content')
 
-</head>
 
-<body>
+
     <div>
         Fait avec &hearts; par SuitsConception
         <a href="/">Revenir à la page d'accueil</a>
     </div>
-    <footer>
-        <p>&copy; Copyright {{ date('Y') }} &middot;</p>
-    </footer>
-
-</body>
-
-</html>
+@endsection
