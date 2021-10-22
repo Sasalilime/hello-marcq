@@ -1,6 +1,6 @@
 @extends('base')
 @section('title')
-    Accueil | {{ env('APP_NAME') }}
+    Accueil | {{ config('app.name') }}
 @endsection
 
 @section('content')

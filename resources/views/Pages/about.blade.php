@@ -1,6 +1,6 @@
 @extends('base')
 
-@section('title', ' About | ' . env('APP_NAME'))
+@section('title', ' About | ' . config('app.name'))
 
 @section('content')
 
@@ -8,6 +8,6 @@
 
     <div>
         Fait avec &hearts; par SuitsConception
-        <a href="/">Revenir à la page d'accueil</a>
+        <a href="{{ route('home') }}">Revenir à la page d'accueil</a>
     </div>
 @endsection
