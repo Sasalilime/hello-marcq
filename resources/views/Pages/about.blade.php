@@ -4,7 +4,7 @@
 
 @section('content')
 
-
+    <img width="300rem" src="images/suit.png" alt="suit">
 
     <div>
         Fait avec &hearts; par SuitsConception
