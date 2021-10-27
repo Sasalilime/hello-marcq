@@ -4,7 +4,7 @@
 @endsection
 
 @section('content')
-    <img width="300rem" src="/images/marcq.jpg" alt="marcq">
+    <img width="300rem" src={{ asset('/images/marcq.jpg') }} alt="marcq">
 
 
     <h1>Hello from France</h1>
