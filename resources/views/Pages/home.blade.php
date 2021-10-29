@@ -1,7 +1,5 @@
-@extends('base')
-@section('title')
-    Accueil | {{ config('app.name') }}
-@endsection
+@extends('layouts/base', ['title' => ' Accueil '])
+
 
 @section('content')
 
