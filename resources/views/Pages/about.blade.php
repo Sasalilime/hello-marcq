@@ -1,13 +1,13 @@
-@extends('base')
+@extends('layouts/base', ['title' => ' About'])
 
-@section('title', ' About | ' . config('app.name'))
 
 @section('content')
 
     <img width="300rem" src={{ asset('/images/suit.png') }} alt="suit">
 
-    <div>
-        Fait avec &hearts; par SuitsConception
-        <a href="{{ route('home') }}">Revenir à la page d'accueil</a>
+
+    Fait avec <span class="text-red-400">&hearts;</span> par SuitsConception
+    <a class="block text-indigo-500 hover:text-indigo-600 underline" href="{{ route('home') }}">Revenir à la page
+        d'accueil</a>
     </div>
 @endsection
